@@ -26,11 +26,11 @@ sudo vim /etc/apache2/mods-enabled/security2.conf
         # will allow for an easy upgrade of THIS file and
         # make your life easier
         IncludeOptional /etc/modsecurity/*.conf
-        ------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------      
         IncludeOptional "/usr/share/modsecurity-crs/*.conf"
         IncludeOptional "/usr/share/modsecurity-crs/activated_rules/*.conf"
         //新增兩條新規則
-        ------------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------------     
 </IfModule>
 ------------------------------------------------------------------------------------
 
