@@ -17,7 +17,7 @@ sudo vim /etc/apache2/mods-enabled/security2.conf
 
 ------------------------------------------------------------------------------------
 
-<IfModule security2_module>
+        <IfModule security2_module>
         # Default Debian dir for modsecurity's persistent data
         SecDataDir /var/cache/modsecurity
 
@@ -30,7 +30,7 @@ sudo vim /etc/apache2/mods-enabled/security2.conf
         IncludeOptional "/usr/share/modsecurity-crs/*.conf"
         IncludeOptional "/usr/share/modsecurity-crs/activated_rules/*.conf"
         //新增兩條新規則   
-</IfModule>
+        </IfModule>
 
  ------------------------------------------------------------------------------------
  
