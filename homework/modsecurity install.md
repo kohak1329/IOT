@@ -34,7 +34,8 @@ sudo vim /etc/apache2/mods-enabled/security2.conf
 ------------------------------------------------------------------------------------
 sudo service apache2 reload
 ------------------------------------------------------------------------------------
-sudo cp /usr/share/modsecurity-crs/base_rules/modsecurity_crs_41_sql_injection_attacks.conf /usr/share/modsecurity-crs/activated_rules/
+sudo cp /usr/share/modsecurity-crs/base_rules/modsecurity_crs_41_sql_injection_attacks.conf 
+/usr/share/modsecurity-crs/activated_rules/
 啟用sql_injection規則
 ------------------------------------------------------------------------------------
 sudo service apache2 reload
