@@ -30,6 +30,7 @@ sudo vim /etc/apache2/mods-enabled/security2.conf
         IncludeOptional "/usr/share/modsecurity-crs/*.conf"
         IncludeOptional "/usr/share/modsecurity-crs/activated_rules/*.conf"
         //新增兩條新規則
+        
  ------------------------------------------------------------------------------------     
 </IfModule>
 
