@@ -21,7 +21,7 @@
 
 •	Encryption keys
 
-## Device Physical Interfaces 設備的實體存取介面
+## Device Physical Interfaces 設備實體存取介面
 •	Firmware extraction
 
 •	User CLI
@@ -111,7 +111,7 @@
 •	Inability to wipe device
 
 
-## Local Data Storage 本地資料儲存
+## Local Data Storage 本地資料存取
 •	Unencrypted data
 
 •	Data encrypted with discovered keys
