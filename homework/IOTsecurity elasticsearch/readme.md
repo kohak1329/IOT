@@ -8,5 +8,7 @@
 修改C:\Program Files\elasticsearch\config\ elasticsearch.yml 檔
 
 ![](https://github.com/kohak1329/IOT/blob/master/homework/IOTsecurity%20elasticsearch/image/2.PNG)
+
     network.host: 0.0.0.0
+    
 ![](https://github.com/kohak1329/IOT/blob/master/homework/IOTsecurity%20elasticsearch/image/3.PNG)
