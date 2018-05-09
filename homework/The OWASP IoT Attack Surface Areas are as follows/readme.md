@@ -3,131 +3,221 @@
 ## Ecosystem Access Control (生態系統存取控制)
 
 •	Implicit trust between components (物件之間的信任溝通)
+
 •	Enrollment security (安全登入)
+
 •	Decommissioning system (除役系統)
+
 •	Lost access procedures (失去訪問程序)
 
 ## Device Memory (記憶體設備)
 
 •	Cleartext usernames (清除文字用戶名)
+
 •	Cleartext passwords (清除文字密碼)
+
 •	Third-party credentials (第三方憑證)
+
 •	Encryption keys (加密密鑰)
 
 ## Device Physical Interfaces (物理介面設備)
 
 •	Firmware extraction (韌體取出)
+
 •	User CLI (使用者命令列)
+
 •	Admin CLI (管理員命令列)
+
 •	Privilege escalation (特權升級)
+
 •	Reset to insecure state (重置為不安全狀態)
+
 •	Removal of storage media (移除儲存裝置)
 
 ## Device Web Interface (網路介面設備)
 
 •	SQL injection (SQL注入式攻擊、SQL資料隱碼攻擊)
+
+
 •	Cross-site scripting (跨網站腳本)
+
 •	Cross-site Request Forgery (跨網站的偽造要求)
+
 •	Username enumeration (使用者名稱的獲取)
+
 •	Weak passwords (脆弱的密碼)
+
 •	Account lockout (帳戶鎖定)
+
 •	Known default credentials (預設驗證機密性資料)
 
 ## Device Firmware (韌體設備) 
 
 •	Hardcoded credentials (硬式編碼憑證)
+
 •	Sensitive information disclosure (敏感資訊洩漏)
+
 •	Sensitive URL disclosure (敏感性網址)
+
 •	Encryption keys (加密密鑰)
+
 •	Firmware version display and/or last update date (韌體版本顯示/最後更新日期)
 
 ## Device Network Services (網路服務設備)
 
 •	Information disclosure (資訊洩漏)
+
 •	User CLI (使用者命令列)
+
 •	Administrative CLI (管理命令列)
+
 •	Injection (注入式)
+
 •	Denial of Service (阻斷服務)
+
 •	Unencrypted Services (未加密的服務)
+
 •	Poorly implemented encryption (不佳的加密效果)
+
 •	Test/Development Services (測試/開發服務)
+
 •	Buffer Overflow (緩衝區溢位)
+
 •	UPnP (通用即插即用)
+
 •	Vulnerable UDP Services (易受攻擊的用戶資料協定服務)
+
 •	DoS (磁碟作業系統)
 
-Administrative Interface (管理介面)
+## Administrative Interface (管理介面)
 
 •	SQL injection (SQL注入式攻擊、SQL資料隱碼攻擊)
+
 •	Cross-site scripting (跨網站指令碼)
+
 •	Cross-site Request Forgery (跨網站的偽造要求)
+
 •	Username enumeration (使用者名稱的獲取)
+
 •	Weak passwords (脆弱的密碼)
+
 •	Account lockout (帳戶鎖定)
+
 •	Known default credentials (預設驗證機密性資料)
+
 •	Security/encryption options (安全/加密選項)
+
 •	Logging options (登陸選項)
+
 •	Two-factor authentication (雙因素認證)
+
 •	Inability to wipe device (無法移除設備)
 
-Local Data Storage (本地數據存儲)
+## Local Data Storage (本地資料儲存)
 
 •	Unencrypted data (未加密的數據)
+
 •	Data encrypted with discovered keys (資料加密與暴露的鑰匙)
+
 •	Lack of data integrity checks (缺乏數據完整性的檢查)
 
 Cloud Web Interface (網路雲端介面)
 
 •	SQL injection (SQL注入式攻擊、SQL資料隱碼攻擊)
+
 •	Cross-site scripting (跨網站指令碼)
+
 •	Cross-site Request Forgery (跨網站的偽造要求)
+
 •	Username enumeration (使用者名稱的獲取)
+
 •	Weak passwords (脆弱的密碼)
+
 •	Account lockout (帳戶鎖定)
+
 •	Known default credentials (預設驗證機密性資料)
+
 •	Transport encryption (傳輸加密)
+
 •	Insecure password recovery mechanism (不安全的密碼恢復機制)
+
 •	Two-factor authentication (雙因素認證)
 
-hird-party Backend APIs (第三方後端APIs)
+## hird-party Backend APIs (第三方後端APIs)
+
 •	Unencrypted PII sent (發送未加密的個人識別資訊)
+
 •	Encrypted PII sent (發送加密的個人識別資訊)
+
 •	Device information leaked (設備資訊洩漏)
+
 •	Location leaked (地點洩漏)
-Update Mechanism (更新機制)
+
+•	Update Mechanism (更新機制)
+
 •	Update sent without encryption (發送沒有加密的更新)
+
 •	Updates not signed (沒有簽名的更新)
+
 •	Update location writable (更新檔案儲存位置可改寫)
+
 •	Update verification (更新驗證)
+
 •	Malicious update (惡意更新)
+
 •	Missing update mechanism (缺少更新機制)
+
 •	No manual update mechanism (沒有手動更新機制)
-Mobile Application (行動應用程式)
+
+## Mobile Application (行動應用程式)
+
 •	Implicitly trusted by device or cloud (設備或雲端的絕對信任)
+
 •	Username enumeration (使用者名稱的獲取)
+
 •	Account lockout (帳戶鎖定)
+
 •	Known default credentials (預設驗證機密性資料)
+
 •	Weak passwords (脆弱的密碼)
+
 •	Insecure password recovery mechanism (不安全的密碼恢復機制)
+
 •	Transport encryption (傳輸加密)
+
 •	Insecure password recovery mechanism (不安全的密碼恢復機制)
+
 •	Two-factor authentication (雙因素認證)
-Vendor Backend APIs (供應商後端APIs)
+
+## Vendor Backend APIs (供應商後端APIs)
+
 •	Inherent trust of cloud or mobile application (設備或雲端的絕對信任)
+
 •	Weak authentication (脆弱的認證機制)
+
 •	Weak access controls (脆弱的存取控制)
+
 •	Injection attacks (隱碼攻擊、注入式攻擊)
-Ecosystem Communication (生態傳播)
+
+## Ecosystem Communication (生態傳播)
+
 •	Health checks (健康檢查)
+
 •	Heartbeats (心跳)
+
 •	Ecosystem commands (生態系統命令)
-•	Deprovisioning (取消供應)
-•	Pushing updates (推送更新)
+
+•	Deprovisioning (取消配置)
+
+•	Pushing updates (推送更新資料)
 
 ## Network Traffic (網路交通)
 
 •	LAN (區域網)
+
 •	LAN to Internet (區域網到互聯網)
+
 •	Short range (短期的)
+
 •	Non-standard (非標準)
 
