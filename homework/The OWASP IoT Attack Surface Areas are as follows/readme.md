@@ -38,7 +38,6 @@
 
 •	SQL injection (SQL注入式攻擊、SQL資料隱碼攻擊)
 
-
 •	Cross-site scripting (跨網站腳本)
 
 •	Cross-site Request Forgery (跨網站的偽造要求)
@@ -121,7 +120,7 @@
 
 •	Lack of data integrity checks (缺乏數據完整性的檢查)
 
-Cloud Web Interface (網路雲端介面)
+## Cloud Web Interface (網路雲端介面)
 
 •	SQL injection (SQL注入式攻擊、SQL資料隱碼攻擊)
 
@@ -197,7 +196,7 @@ Cloud Web Interface (網路雲端介面)
 
 •	Weak access controls (脆弱的存取控制)
 
-•	Injection attacks (隱碼攻擊、注入式攻擊)
+•	Injection attacks (注入式攻擊)
 
 ## Ecosystem Communication (生態傳播)
 
@@ -217,7 +216,7 @@ Cloud Web Interface (網路雲端介面)
 
 •	LAN to Internet (區域網到互聯網)
 
-•	Short range (短期的)
+•	Short range (短範圍)
 
 •	Non-standard (非標準)
 
