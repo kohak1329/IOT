@@ -1,6 +1,6 @@
 
-下載elasticsearch
-====
+#下載elasticsearch
+
 
 ![](https://github.com/kohak1329/IOT/blob/master/homework/IOTsecurity%20elasticsearch/image/1.PNG)
 
@@ -18,4 +18,10 @@
 
 ![](https://github.com/kohak1329/IOT/blob/master/homework/IOTsecurity%20elasticsearch/image/4.PNG)
 
+![](https://github.com/kohak1329/IOT/blob/master/homework/IOTsecurity%20elasticsearch/image/5.PNG)
 
+## 開啟網頁，在網頁輸入網址 http://127.0.0.1:9200/ 
+
+![](https://github.com/kohak1329/IOT/blob/master/homework/IOTsecurity%20elasticsearch/image/6.PNG)
+
+# 完成elasticsearch
